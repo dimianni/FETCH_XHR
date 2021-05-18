@@ -10,7 +10,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 module.exports = {
     mode: 'development',
     entry: {
-        index: './src/index.js'
+        xhr: './src/xhr.js',
+        fetch: './src/fetch.js'
     },
     output: {
         filename: 'js/[name].[contenthash].bundle.js',
